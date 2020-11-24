@@ -1,0 +1,5 @@
+https://thegreatadventure.et.r.appspot.com (User)
+https://thegreatadventure.et.r.appspot.com/Admin/login.jsp
+
+email = admin@admin.com
+password = admin123

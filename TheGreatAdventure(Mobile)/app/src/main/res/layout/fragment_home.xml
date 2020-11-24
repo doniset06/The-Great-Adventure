@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <ScrollView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:gravity="center"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1100px"
+                android:background="@drawable/headerbgg"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="100px"
+                    android:layout_height="150px"
+                    android:background="@drawable/logo" />
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/play"
+                    android:text="The Great Outdoor"
+                    android:textColor="#F5F5F5"
+                    android:textSize="24sp"
+                    android:textStyle="normal"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5px"
+                    android:layout_marginTop="10px"
+                    android:fontFamily="@font/play"
+                    android:text="ADVENTURE"
+                    android:textColor="#F5F5F5"
+                    android:textSize="24sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="323dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10px"
+                    android:fontFamily="@font/play"
+                    android:text="The Experience of Seeing the Beuty of Star from the Open Nature and Moment with  loved ones"
+                    android:textColor="#F5F5F5"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1200px"
+                android:orientation="vertical"
+                android:paddingBottom="60dp">
+
+                <TextView
+                    android:id="@+id/experience"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/play"
+                    android:text="EXPERIENCE"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:id="@+id/thril"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/play"
+                    android:text="THE THRILLING EXPERIENCE-OUTDOORS"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/come"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/play"
+                    android:text="COME ON TRY THE FUN UNITED WITH NATURE"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="15dp"
+
+                    android:textStyle="normal" />
+                <TextView
+                    android:id="@+id/with"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/play"
+                    android:text="WITH US"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="normal" />
+
+                <RelativeLayout
+                    android:id="@+id/layout_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.example.thegreatadventure._sliders.SliderView
+                            android:id="@+id/sliderView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"/>
+
+                    </FrameLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/bg_indicator"/>
+
+                    <LinearLayout
+                        android:id="@+id/pagesContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/play"
+                    android:text="ABOUT US"
+                    android:layout_marginTop="50dp"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="293dp"
+                    android:layout_height="151dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/stargizing"
+                    android:fontFamily="@font/play" />
+
+                <ImageView
+                    android:layout_width="293dp"
+                    android:layout_height="151dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/campingg"
+                    android:fontFamily="@font/play" />
+
+                <ImageView
+                    android:layout_width="293dp"
+                    android:layout_height="151dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/hikingg"
+                    android:fontFamily="@font/play" />
+
+                <TextView
+                    android:id="@+id/desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/play"
+                    android:text="We are the people who designed the website and chose the destination that you will go to later. We have conducted a survey of places that we recommend, we did it because to add excitement, comfort and to add to your experience of exploring nature in Indonesia."
+                    android:layout_marginTop="20dp"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:textStyle="normal" />
+
+
+                <ImageView
+                    android:layout_width="133dp"
+                    android:layout_height="133dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/founder1"
+                    android:fontFamily="@font/play" />
+
+                <TextView
+                    android:id="@+id/doni"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/play"
+                    android:textAlignment="center"
+                    android:text="Doni Setiawan"
+                    android:layout_marginTop="0dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/sc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/play"
+                    android:text="4SC2"
+                    android:layout_marginTop="0dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:layout_width="133dp"
+                    android:layout_height="133dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/founder2"
+                    android:fontFamily="@font/play" />
+
+                <TextView
+                    android:id="@+id/rakha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/play"
+                    android:text="Rakha Farhan Vahdaputra"
+                    android:layout_marginTop="0dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/sc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/play"
+                    android:text="4SC2"
+                    android:layout_marginTop="0dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

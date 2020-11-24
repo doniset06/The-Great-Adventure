@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/button"
+    tools:context=".DetailFragment">
+
+    <!-- TODO: Update blank activityFragment layout -->
+    <ScrollView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1100px"
+                android:background="@drawable/headerbgg"
+                android:orientation="vertical"
+                android:padding="16dp"
+                >
+
+                <ImageView
+                    android:layout_width="100px"
+                    android:layout_height="150px"
+                    android:background="@drawable/logo"/>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Great Outdoor"
+                    android:textColor="#F5F5F5"
+                    android:fontFamily="@font/play"
+                    android:textSize="24sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5px"
+                    android:layout_marginTop="10px"
+                    android:text="ADVENTURE"
+                    android:textColor="#F5F5F5"
+                    android:fontFamily="@font/play"
+                    android:textSize="24sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="323dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10px"
+                    android:text="The Experience of Seeing the Beuty of Star from the Open Nature and Moment with  loved ones"
+                    android:textColor="#F5F5F5"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/play"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1200px"
+                android:paddingBottom="60dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/experience"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px"
+                    android:text="STAR GIZING"
+                    android:fontFamily="@font/play"
+                    android:textStyle="bold"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/play"
+                    android:text="Here we offer you a package to enjoy the beauty of the stars from one of the places we highly recommend, from the summit of Mount Bromo. With a price of Rp.400,000 / person / night"
+                    android:layout_marginTop="165dp"
+                    android:layout_marginLeft="30px"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="13dp"
+                    android:fontFamily="@font/play"
+                    android:text="Facilities that we will provide:"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="45px"/>
+
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginTop="5dp"
+                    android:text="-Tents"
+                    android:textSize="13dp"
+                    android:fontFamily="@font/play"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginTop="5dp"
+                    android:text="-Car"
+                    android:textSize="13dp"
+                    android:fontFamily="@font/play"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginTop="5dp"
+                    android:text="-Sleeping Bag"
+                    android:textSize="13dp"
+                    android:fontFamily="@font/play"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginTop="5dp"
+                    android:text="-Cookware"
+                    android:textSize="13dp"
+                    android:fontFamily="@font/play"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Book"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btnbook"
+                    android:id="@+id/Booking"
+                    android:fontFamily="@font/play"
+                    android:layout_margin="50px"/>
+
+                <TextView
+                    android:id="@+id/camping"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px"
+                    android:text="CAMPING"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/play"
+                    android:textSize="20dp"/>
+                <ImageView
+                    android:layout_width="293dp"
+                    android:layout_height="151dp"
+                    android:layout_marginLeft="200px"
+                    android:fontFamily="@font/play"
+                    android:background="@drawable/slide3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/play"
+                    android:text="Here we offer you a package to enjoy the natural atmosphere by camping in one of the places that we highly recommend, from the summit of Mount Bromo. With a price of Rp.450,000 / person / night"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="30px"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="13dp"
+                    android:fontFamily="@font/play"
+                    android:text="Facilities that we will provide:"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="45px"/>
+
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginTop="5dp"
+                    android:text="-Tents"
+                    android:textSize="13dp"
+                    android:fontFamily="@font/play"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginTop="5dp"
+                    android:text="-Car"
+                    android:textSize="13dp"
+                    android:fontFamily="@font/play"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginTop="5dp"
+                    android:text="-Sleeping Bag"
+                    android:textSize="13dp"
+                    android:fontFamily="@font/play"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginTop="5dp"
+                    android:text="-Cookware"
+                    android:textSize="13dp"
+                    android:fontFamily="@font/play"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/Booking"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Book"
+                    android:fontFamily="@font/play"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btnbook"
+                    android:layout_margin="50px"
+                    tools:ignore="DuplicateIds" />
+
+
+                <TextView
+                    android:id="@+id/hiking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px"
+                    android:text="HIKING"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/play"
+                    android:textSize="20dp"/>
+                <ImageView
+                    android:layout_width="293dp"
+                    android:layout_height="151dp"
+                    android:layout_marginLeft="200px"
+                    android:fontFamily="@font/play"
+                    android:background="@drawable/galery_7"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"
+                    android:text="We have a hiking trail that is perfect for beginners who want to make the first climb, which is safe, beautiful and also fun to make an experience. We offer a price of Rp.350,000 / person"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/play"
+                    android:layout_marginLeft="30px"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="13dp"
+                    android:text="Facilities that we will provide:"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/play"
+                    android:layout_marginLeft="45px"/>
+
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginTop="5dp"
+                    android:text="-Drinking Supplies"
+                    android:textSize="13dp"
+                    android:fontFamily="@font/play"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginTop="5dp"
+                    android:text="-Guard Post"
+                    android:textSize="13dp"
+                    android:fontFamily="@font/play"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginTop="5dp"
+                    android:text="-Medic"
+                    android:fontFamily="@font/play"
+                    android:textSize="13dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginTop="5dp"
+                    android:text="-Safety Rope"
+                    android:fontFamily="@font/play"
+                    android:textSize="13dp"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Book"
+                    android:id="@+id/Booking"
+                    android:fontFamily="@font/play"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btnbook"
+                    android:layout_margin="50px"
+                    tools:ignore="DuplicateIds" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="293dp"
+                android:layout_height="151dp"
+                android:layout_marginLeft="200px"
+                android:fontFamily="@font/play"
+                android:layout_marginTop="1300px"
+                android:background="@drawable/galery_4"/>
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
